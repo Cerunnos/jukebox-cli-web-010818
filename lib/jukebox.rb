@@ -31,4 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_selection=gets.chomp
   if (1..9).to_a.include?(user_selection.to_i)
+    puts "Playing #{songs[user_selection.to_i]}"
+  elsif songs.include?(user_selection)
+    puts "Playing #{user_selection}"
 end
