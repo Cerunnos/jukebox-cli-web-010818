@@ -45,4 +45,6 @@ end
 
 def run
   help
+  puts "Please enter a command:"
+  user_help_response=gets.chomp
 end
