@@ -27,6 +27,6 @@ def list(songs)
   end
 end
 
-def play
+def play(songs)
 
 end
