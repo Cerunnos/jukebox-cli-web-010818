@@ -22,5 +22,8 @@ HELP
 end
 
 def list(songs)
+  songs.each_with_index do |songs,index|
+
+  end
 
 end
