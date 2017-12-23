@@ -51,5 +51,7 @@ def run
     exit_jukebox
   elsif user_help_response=="list"
     list(songs)
-
+  elsif user_help_response=="play"
+    play(songs)
+  end
 end
