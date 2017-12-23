@@ -20,3 +20,7 @@ I accept the following commands:
 HELP
   puts help
 end
+
+def list
+
+end
