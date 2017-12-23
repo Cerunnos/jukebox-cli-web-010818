@@ -12,4 +12,5 @@ songs = [
 
 def help
   help=<<-HELP
-  
+
+end
