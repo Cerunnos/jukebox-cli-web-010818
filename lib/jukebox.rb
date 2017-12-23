@@ -21,6 +21,6 @@ HELP
   puts help
 end
 
-def list
+def list(songs)
 
 end
