@@ -36,4 +36,5 @@ def play(songs)
     puts "Playing #{user_selection}"
   else
     puts "Invalid input, please try again"
+  end
 end
